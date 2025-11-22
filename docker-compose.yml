@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  orchestrator:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - LITELLM_MODEL_PLANNER=gpt-4o-mini
+      - LITELLM_MODEL_AGENT=gpt-4o-mini
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
