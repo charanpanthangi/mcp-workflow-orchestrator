@@ -1,0 +1,7 @@
+{
+  "plan": "Concise workflow summary",
+  "agents_used": ["weather", "budget", "flight", "hotel", "taxi", "response"],
+  "tools_invoked": ["weather", "budget", "flight", "hotel", "taxi"],
+  "result": "Final orchestrated plan with recommendations",
+  "metadata": {"preferences": {"hotel_style": "business"}}
+}

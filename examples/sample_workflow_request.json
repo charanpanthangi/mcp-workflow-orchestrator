@@ -1,0 +1,13 @@
+{
+  "objective": "Plan a business trip to Berlin",
+  "budget": 1500,
+  "context": {
+    "origin": "LON",
+    "destination": "BER",
+    "city": "Berlin"
+  },
+  "user_preferences": {
+    "nationality": "UK",
+    "hotel_style": "business"
+  }
+}
